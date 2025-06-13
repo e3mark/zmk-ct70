@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: redox_left
+    shield: ct70_left
   - board: nice_nano_v2
-    shield: redox_right
+    shield: ct70_right
