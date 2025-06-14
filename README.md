@@ -50,3 +50,15 @@ ct70-zmk/
 │   ├── Kconfig.defconfig
 │   └── Kconfig.shield
 └── README.md
+
+
+-------------------
+
+
+Quick Development Workflow
+After initial setup, when you make changes:
+bash# Clean and rebuild (if needed)
+west build -d build/left -b nice_nano_v2 -- -DSHIELD=ct70_left --pristine
+
+# Or just rebuild
+west build -d build/left
