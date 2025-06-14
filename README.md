@@ -34,3 +34,19 @@ A 7x5 split keyboard configuration for ZMK firmware, inspired by the Kinesis Adv
 - Layer 1: Function keys (F1-F10)
 - Layer 2: Numpad and Bluetooth controls
 - Layer 3: Space layer for thumb access
+
+## Directory Structure
+
+ct70-zmk/
+├── .github/
+│   └── workflows/
+│       └── build.yml
+├── config/
+│   ├── west.yml
+│   ├── ct70.keymap
+│   ├── ct70.dtsi
+│   ├── ct70_left.overlay
+│   ├── ct70_right.overlay
+│   ├── Kconfig.defconfig
+│   └── Kconfig.shield
+└── README.md
