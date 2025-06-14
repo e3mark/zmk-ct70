@@ -8,6 +8,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_CT70_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "CT70"
+
+endif
+
 if SHIELD_CT70_LEFT || SHIELD_CT70_RIGHT
 
 config ZMK_SPLIT
