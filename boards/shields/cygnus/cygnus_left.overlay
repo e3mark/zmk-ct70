@@ -8,5 +8,6 @@
         , <&pro_micro 18 GPIO_ACTIVE_HIGH> // col4 in the schematic
         , <&pro_micro 15 GPIO_ACTIVE_HIGH> // col5 in the schematic
         , <&pro_micro 14 GPIO_ACTIVE_HIGH> // col6 in the schematic
+        , <&pro_micro 16 GPIO_ACTIVE_HIGH> // col7 in the schematic
         ;
 };
