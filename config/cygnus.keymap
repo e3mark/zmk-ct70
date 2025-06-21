@@ -65,11 +65,11 @@
             // └─────┴─────┴─────┴─────┴─────┴─────┴─────┘     └─────┴─────┴─────┴─────┴─────┴─────┴─────┘
 
             bindings = <
-&kp EQUAL       &kp N1  &kp N2    &kp N3          &kp N4             &kp N5         &kp ESC           &kp DEL                   &kp N6     &kp N7        &kp N8          &kp N9   &kp N0    &kp MINUS
-&kp CAPS        &kp Q   &kp W     &kp E           &kp R              &kp T          &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp Y      &kp U         &kp I           &kp O    &kp P     &kp BSLH
-&kp TAB         &kp A   &kp S     &kp D           &hml LEFT_SHIFT F  &kp G          &kp GRAVE         &to 1                     &kp H      &hmr RSHFT J  &kp K           &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X     &kp C           &kp V              &kp B          &kp LGUI          &hmr RIGHT_ALT RIGHT_ALT  &kp N      &kp M         &kp COMMA       &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-&none           &none   &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp BACKSPACE  &kp LCTRL         &kp ENTER                 &kp SPACE  &kp UP_ARROW  &kp DOWN_ARROW  &kp END  &none     &none
+&kp EQUAL       &kp N1     &kp N2    &kp N3          &kp N4             &kp N5         &to 1          &kp DEL                   &kp N6     &kp N7        &kp N8          &kp N9            &kp N0             &kp MINUS
+&kp ESC         &kp Q      &kp W     &kp E           &kp R              &kp T          &kp PAGE_UP    &kp HOME                  &kp Y      &kp U         &kp I           &kp O             &kp P              &kp BSLH
+&kp TAB         &kp A      &kp S     &kp D           &hml LEFT_SHIFT F  &kp G          &kp PAGE_DOWN  &kp END                   &kp H      &hmr RSHFT J  &kp K           &kp L             &kp SEMI           &kp SQT
+&kp LEFT_SHIFT  &kp Z      &kp X     &kp C           &kp V              &kp B          &kp LGUI       &hmr RIGHT_ALT RIGHT_ALT  &kp N      &kp M         &kp COMMA       &kp DOT           &kp FSLH           &kp RIGHT_SHIFT
+&none           &kp GRAVE  &kp CAPS  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp BACKSPACE  &kp LCTRL      &kp ENTER                 &kp SPACE  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
             >;
         };
 
@@ -87,7 +87,7 @@
             // └─────┴─────┴─────┴─────┴─────┴─────┴─────┘     └─────┴─────┴─────┴─────┴─────┴─────┴─────┘
 
             bindings = <
-&kp F11  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5         &none   &none   &kp F6                &kp F7            &kp F8            &kp F9            &kp F10                &kp F12
+&kp F11  &kp F1  &kp F2          &kp F3          &kp F4           &kp F5         &to 0   &none   &kp F6                &kp F7            &kp F8            &kp F9            &kp F10                &kp F12
 &none    &none   &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none   &none   &kp TILDE             &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(NUMBER_0)       &none
 &none    &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &to 0   &to 0   &kp LEFT_BRACKET      &kp RS(NUMBER_4)  &kp RS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RIGHT_BRACKET      &none
 &none    &none   &kp K_CUT       &kp K_COPY      &kp K_PASTE      &none          &trans  &none   &kp RS(LEFT_BRACKET)  &kp RS(NUMBER_1)  &kp RS(NUMBER_2)  &kp RS(NUMBER_3)  &kp RS(RIGHT_BRACKET)  &none
